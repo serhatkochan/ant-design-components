@@ -34,8 +34,3 @@ yarn-error.log*
 .idea/
 .vscode
 .vscode/
-yarn.lock
-package-lock.json
-
-.gitlab-ci.yml
-
