@@ -1,11 +1,10 @@
-import { DatePicker } from 'antd';
-
 import 'antd/dist/antd.css';
+import Dropdown from "./components/dropdown";
 
 function App() {
   return (
     <div>
-      <DatePicker />
+      <Dropdown />
     </div>
   );
 }
