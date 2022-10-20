@@ -8,6 +8,7 @@ import {
 
 // css
 import 'antd/dist/antd.min.css';
+import 'assets/css/index.scss';
 
 const menu = () => {
   return <Menu
@@ -25,7 +26,7 @@ const menu = () => {
 }
 function App() {
   return (
-    <div>
+    <div className="appContainer">
       <Dropdown menu={menu} text="Dropdown Text" />
       <DatePicker />
     </div>
