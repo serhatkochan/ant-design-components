@@ -1,6 +1,3 @@
-// antd
-import { Menu } from 'antd';
-
 // components
 import {
   Dropdown, DatePicker
@@ -10,24 +7,11 @@ import {
 import 'antd/dist/antd.min.css';
 import 'assets/css/index.scss';
 
-const menu = () => {
-  return <Menu
-    items={[
-      {
-        key: '1',
-        label: (
-          <a target="_blank" href="#">
-            1st menu item
-          </a>
-        ),
-      }
-    ]}
-  />;
-}
+
 function App() {
   return (
     <div className="appContainer">
-      <Dropdown menu={menu} text="Dropdown Text" />
+      <Dropdown overlay={<div>element</div>} child="Dropdown Text" />
       <DatePicker />
     </div>
   );
