@@ -19,7 +19,6 @@ const Dropdown = ({
   destroyPopupOnHide = false, // Whether destroy dropdown when hidden, type: boolean, default: false
 }) => {
   return (
-    <div>
       <AntDropdown
         overlay={overlay}
         overlayClassName={overlayClassName}
@@ -35,7 +34,6 @@ const Dropdown = ({
       >
         <div>{child}</div>
       </AntDropdown>
-    </div>
   );
 };
 

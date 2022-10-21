@@ -1,6 +1,6 @@
 // components
 import {
-  Dropdown, DatePicker
+  Dropdown,
 } from "components";
 
 // css
@@ -11,8 +11,7 @@ import 'assets/css/index.scss';
 function App() {
   return (
     <div className="appContainer">
-      <Dropdown overlay={<div>element</div>} child="Dropdown Text" />
-      <DatePicker />
+      <Dropdown overlay={<>element</>} child="Dropdown Text" />
     </div>
   );
 }
