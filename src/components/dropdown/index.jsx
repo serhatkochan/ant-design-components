@@ -1,7 +1,7 @@
 import React from 'react';
 import {Dropdown as AntDropdown} from 'antd';
 
-import './index.scss'
+import './index.scss';
 
 
 const Dropdown = ({

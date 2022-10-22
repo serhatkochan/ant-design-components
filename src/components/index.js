@@ -1,7 +1,7 @@
-import DatePicker from './datePicker';
-import Dropdown from "./dropdown";
+import Dropdown from './dropdown';
+import Menu from './menu';
 
 export {
-    DatePicker,
-    Dropdown
+  Dropdown,
+  Menu
 }

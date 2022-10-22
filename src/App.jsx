@@ -1,6 +1,6 @@
 // components
 import {
-  Dropdown,
+  Dropdown, Menu
 } from "components";
 
 // css
