@@ -14,8 +14,12 @@ import "assets/css/index.scss";
 function App() {
   return (
     <div className="appContainer">
-      <Dropdown overlay={<>element</>} child="Dropdown Text" />
-      <Menu items={menuItems} mode="horizontal" />
+      <div className="component">
+        <Dropdown overlay={<>element</>} child="Dropdown Text" />
+      </div>
+      <div className="component">
+        <Menu items={menuItems} mode="horizontal" />
+      </div>
     </div>
   );
 }
