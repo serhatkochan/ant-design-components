@@ -2,10 +2,8 @@
 import {
   Dropdown, Menu
 } from "components";
-
 // constants
 import {menuItems} from "constants/menuItems";
-
 // css
 import "antd/dist/antd.min.css";
 import "assets/css/index.scss";
